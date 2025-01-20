@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "nodemon --watch . --ext ts --exec ts-node index.ts --ignore '*.test.ts'"
+    "dev": "nodemon --watch . --ext ts --exec ts-node index.ts --ignore '*.test.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
