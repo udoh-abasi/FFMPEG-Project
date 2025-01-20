@@ -70,5 +70,5 @@ app.post("/upload", upload.single("video"), (req: Request, res: Response) => {
 });
 
 app.listen(8000, () => {
-  console.log("App is listening on port 8000");
+  console.log("Listening on port 8000");
 });
